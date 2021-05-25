@@ -45,7 +45,7 @@
       path: '/UpdatedHelloWorld'
       state: touch 
       owner: "{{ user }}"
-      group: "{{ user}}"
+      group: "{{ user }}"
       mode: '0755'
 
   - name: Insert a line inside the 'UpdatedHelloWorld' file
